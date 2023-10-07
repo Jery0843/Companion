@@ -229,7 +229,7 @@ create_database()
 # Run the Streamlit app
 if __name__ == "__main__":
     main()
-    os.system("streamlit run juju.py")
+    os.system("streamlit run main.py")
 
 # Release the webcam
 cap.release()
