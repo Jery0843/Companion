@@ -9,6 +9,7 @@ from difflib import get_close_matches
 from textblob import TextBlob
 from keras.models import load_model
 import requests
+import os
 
 # URLs for required files
 emotion_model_url = "https://mycompanion.s3.ap-south-1.amazonaws.com/emotion_model.hdf5"
