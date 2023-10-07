@@ -20,4 +20,5 @@ RUN pip install tensorflow
 EXPOSE 8501
 
 # Define the command to run your application
-CMD ["streamlit", "run", "application.py"]
+CMD ["streamlit", "run", "application.py", "--server.port", "8080"]
+
