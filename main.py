@@ -53,7 +53,7 @@ def load_kb(file_path: str) -> dict:
     return data
 
 # Function to find the best matching question in the knowledge base
-def find_best_match(user_question: str, questions: list[str]) -> str | None:
+def find_best_match(user_question: str, questions: list[str]):
     matches: list = get_close_matches(user_question, questions, n=1, cutoff=0.6)
     return matches[0] if matches else None
 
