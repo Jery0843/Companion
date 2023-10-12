@@ -6,3 +6,4 @@ datetime
 textblob
 keras
 requests
+tensorflow
